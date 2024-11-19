@@ -1,0 +1,95 @@
+body{
+    color: black !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.hiddenform{
+    display: none;
+}
+#maindiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(209,195,252,1) 0%, rgba(155,196,252,1) 100%);
+}
+#cityform{
+   position: relative;
+   left: 250px;
+}
+#cityform p{
+    font-size: 70px;
+}
+#cityform input{
+    margin-right: 2%;
+    padding-left: 25px;
+    width: 77%;
+    height: 50px;
+    font-family: "Bebas Neue", serif;
+    font-size: 25px;
+    border: none;
+    outline: .5px solid black;
+}
+#cityform button{
+    font-family: "Bebas Neue", serif;
+    font-size: 25px;
+    border: none;
+    outline: .5px solid black;
+    width: 19%;
+    height: 50px;
+    background: linear-gradient(180deg, rgba(209,195,252,1) 0%, rgba(155,196,252,1) 100%);
+   
+    
+}
+#mianapp {
+    width: 22%;
+}
+.mainfont{
+    font-family: "Bebas Neue", serif;
+    text-shadow: 1px 1px 0 white;
+
+}
+.maininfo{
+    position: relative;
+    bottom: 25px;
+}
+.Ginfo{
+    width: 50%;
+    font-size: 30px;
+}
+.uperpart p{
+    position: relative;
+    top: 18px;
+    font-size: 30px;
+}
+.uperpart h3{
+    font-size: 80px;
+}
+.maininfo_1 h1{
+    font-size: 120px;
+}
+.maininfo_1 h6{
+    position: relative;
+    bottom: 30px;
+    font-size: 30px;
+}
+.maininfo_2 img{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    color: #212529;
+    -webkit-filter: drop-shadow(2px 2px 0px #ffffff);
+     /* filter: drop-shadow(2px 2px 0px #dddddd); */
+}
+.maininfo h3{
+    font-size: 50px;
+}
+.lowerpart{
+    position: relative;
+    bottom: 18px;
+    padding-top: 12px;
+    border-top: 3px solid rgba(0, 0, 0, 0.303);
+}
