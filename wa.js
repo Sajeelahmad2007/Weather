@@ -24,7 +24,7 @@ function main(){
                             <h6 class="mainfont m-0">Feels like ${Math.trunc(weather.main.feels_like)}C&#176;</h6>
                         </div>
                         <div class="maininfo_2">
-                            <img src="images/${weather.weather[0].icon}.png" alt="" width="120px"  height="120px">
+                            <img src="images/${weather.weather[0].icon}.png" alt="" width="96px"  height="96px">
                         </div>
                         <h3 class="w-100 mainfont m-0">${weather.weather[0].description}.</h3>
                     </div>
