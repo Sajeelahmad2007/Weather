@@ -120,10 +120,11 @@ body{
         font-size: 18px;
     }
     .maininfo_2 img{
+        width: 72px !important;
+        height: 72px !important;
         position: relative;
         top: 12px;
         left: 12px;
-        color: #212529;
         -webkit-filter: drop-shadow(2px 2px 0px #ffffff);
     }
     .maininfo h3{
