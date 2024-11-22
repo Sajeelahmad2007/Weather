@@ -13,8 +13,9 @@ function main(){
         let date = new Date(localtime)
         console.log(date) 
         console.log(weather)
-        let maindiv = $("#mianapp")
-        maindiv.html(`<div>
+        let maindiv = $("#2pg")
+        maindiv.html(`
+            <div id="mianapp">
                 <div class="uperpart d-flex flex-wrap">
                     <p class="date w-100 mainfont m-0"></p>
                     <h3 class="w-100 mainfont m-0">${weather.name}, ${weather.sys.country}</h3>
