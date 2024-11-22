@@ -13,9 +13,18 @@ function main(){
         let date = new Date(localtime)
         console.log(date) 
         console.log(weather)
-        let maindiv = $("#2pg")
+       let maindiv = $("#2pg")
+        if(weather.cod == 404){
+            maindiv.html(`
+                <div>
+                    <a class="mainfont m-0" style="color: black; font-size: 20px;" href="javascript:location.reload(true)"><i style="font-size: 17px;" class="fa-solid fa-arrow-left"></i> go back</a><br>
+                    <h3 style="font-size: 35px;" class=" mainfont m-0">ERROR ${weather.cod}<br> ${weather.message}</h3>
+                </div>
+                `)
+        }
         maindiv.html(`
             <div id="mianapp">
+            <a class="mainfont m-0" style="color: black; font-size: 20px;" href="javascript:location.reload(true)"><i style="font-size: 17px;" class="fa-solid fa-arrow-left"></i> go back</a>
                 <div class="uperpart d-flex flex-wrap">
                     <p class="date w-100 mainfont m-0"></p>
                     <h3 class="w-100 mainfont m-0">${weather.name}, ${weather.sys.country}</h3>
