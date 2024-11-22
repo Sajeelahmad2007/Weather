@@ -125,7 +125,6 @@ body{
         left: 12px;
         color: #212529;
         -webkit-filter: drop-shadow(2px 2px 0px #ffffff);
-         /* filter: drop-shadow(2px 2px 0px #dddddd); */
     }
     .maininfo h3{
         font-size: 30px;
